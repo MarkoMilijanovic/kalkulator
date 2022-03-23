@@ -11,6 +11,11 @@ while (true)
         Console.WriteLine(temp);
         continue;
     }
+    if (input.Length != 3)
+    {
+        Console.WriteLine("Invalid input!");
+        continue;
+    }
     a = int.Parse(input[0]);
     b = int.Parse(input[2]);
     switch (input[1])
