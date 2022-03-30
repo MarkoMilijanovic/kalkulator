@@ -29,5 +29,6 @@ while (true)
         case "-": Console.WriteLine(a - b); break;
         case "*": Console.WriteLine(a * b); break;
         case "/": Console.WriteLine(a / b); break;
+        case "^": Console.WriteLine("Ne znam kako radi pow u c#"); break;
     }
 }
